@@ -17,12 +17,12 @@ void OnProjectLoad (void) {
   Project.SetHostIF ("USB", "");
   Project.SetTargetIF ("JTAG");
   Project.SetTIFSpeed ("50 MHz");
-  Project.AddSvdFile ("C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.3.0\ide\plugins\com.atollic.truestudio.tsp.stm32_1.0.0.20190212-0734\tsp\sfr\STM32F7x7.svd");
+  Project.AddSvdFile ("C:\Users\bruno\source\repos\STM32\Hands-On-RTOS-with-Microcontrollers\STM32F767.svd");
   Project.SetOSPlugin("FreeRTOSPlugin_CM7");
   //
   // User settings
   //
-  File.Open ("C:/projects/packtBookRTOS/freeRTOS_Nucleo767/Debug/freeRTOS_Nucleo767.elf");
+  File.Open ("C:\Users\bruno\source\repos\STM32\Hands-On-RTOS-with-Microcontrollers\Chapter_9\queueSimplePassByValue\Chapter9_QueueSimplePassByValue.elf");
 }
 
 /*********************************************************************
